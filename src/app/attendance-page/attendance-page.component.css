@@ -1,0 +1,70 @@
+.container {
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    margin-bottom: 20px;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.836);
+}
+
+.header-img img {
+    height: 50px;
+    width: auto;
+    margin-left: 20px;
+}
+
+.header-title h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+
+.sub-container {
+    padding: 5px 50px;
+}
+
+.sub-container h4 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sub-container h5 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.datetime p {
+    font-size: 24px;
+    margin: 5px 0;
+}
+
+.attendance-stats {
+    display: flex;
+    margin-top: 20px;
+}
+
+.stat-item {
+	display: flex;
+	flex-direction: row;
+    padding: 15px;
+    border-radius: 8px;
+    width: 45%;
+}
+
+.stat-item h3 {
+    font-size: 24px;
+	margin: 1px;
+}
+
+.stat-item p {
+    font-size: 26px;
+    font-weight: bold;
+	padding: 0;
+	margin: 0;
+}
